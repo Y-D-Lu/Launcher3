@@ -120,7 +120,7 @@
             android:persistent="false">
             <intent
                 android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
-                android:data="package:amirz.rootless.nexuslauncher" />
+                android:data="package:cn.arsenals.sensor_launcher" />
         </Preference>
 
         <Preference

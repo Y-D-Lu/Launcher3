@@ -34,7 +34,7 @@ android {
     buildTypes {
         debug {
             minifyEnabled false
-            applicationIdSuffix ".debug"
+            //applicationIdSuffix ".debug"
         }
 
         optimized {
@@ -53,13 +53,13 @@ android {
 
     productFlavors {
         aosp {
-            applicationId 'amirz.rootless.nexuslauncher'
+            applicationId 'cn.arsenals.sensor_launcher'
             testApplicationId 'amirz.rootless.nexuslauncher.tests'
             flavorDimensions 'default'
         }
 
         l3go {
-            applicationId 'amirz.rootless.nexuslauncher'
+            applicationId 'cn.arsenals.sensor_launcher'
             testApplicationId 'amirz.rootless.nexuslauncher.tests'
             flavorDimensions 'default'
         }
